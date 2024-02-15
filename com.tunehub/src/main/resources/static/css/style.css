@@ -1,0 +1,28 @@
+/* CSS style for your HTML code */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    text-align: center;
+}
+
+/* Link Styles */
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    background-color: aqua;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}

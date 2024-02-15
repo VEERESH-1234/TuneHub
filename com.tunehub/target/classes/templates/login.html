@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tunehub login</title>
+<link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+<body>
+	<form action="validate" method="post">
+	<h1>User Login: </h1>
+		<label>Email :</label> 
+		<input type="email" name="email" placeholder="enter email id">
+		<br/><br/> 
+		<label>Password :</label> 
+		<input type="password" name="password" placeholder="enter your password">
+		<br/><br/> 
+		<input type="submit" value="LOGIN">
+	</form>
+</body>
+</html>

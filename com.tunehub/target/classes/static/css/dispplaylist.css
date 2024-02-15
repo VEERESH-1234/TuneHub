@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.playlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.playlist-table th,
+.playlist-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.playlist-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+.playlist-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+audio {
+    vertical-align: middle;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color:  #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color:  #4CAF50;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: -3px;
+}
+
+audio::-webkit-media-controls-volume-slider-container {
+    display: none;
+}
